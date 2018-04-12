@@ -1,0 +1,14 @@
+C:\Users\Matthew Dal Santo\Desktop\ITDEV110\CSharp Projects\ITDEV117Assignment7A\ITDEV117Assignment7A\bin\Debug\ITDEV117Assignment7A.exe.config
+C:\Users\Matthew Dal Santo\Desktop\ITDEV110\CSharp Projects\ITDEV117Assignment7A\ITDEV117Assignment7A\bin\Debug\ITDEV117Assignment7A.exe
+C:\Users\Matthew Dal Santo\Desktop\ITDEV110\CSharp Projects\ITDEV117Assignment7A\ITDEV117Assignment7A\bin\Debug\ITDEV117Assignment7A.pdb
+C:\Users\Matthew Dal Santo\Desktop\ITDEV110\CSharp Projects\ITDEV117Assignment7A\ITDEV117Assignment7A\obj\Debug\ITDEV117Assignment7A.csprojResolveAssemblyReference.cache
+C:\Users\Matthew Dal Santo\Desktop\ITDEV110\CSharp Projects\ITDEV117Assignment7A\ITDEV117Assignment7A\obj\Debug\ITDEV117Assignment7A.csproj.CoreCompileInputs.cache
+C:\Users\Matthew Dal Santo\Desktop\ITDEV110\CSharp Projects\ITDEV117Assignment7A\ITDEV117Assignment7A\obj\Debug\ITDEV117Assignment7A.exe
+C:\Users\Matthew Dal Santo\Desktop\ITDEV110\CSharp Projects\ITDEV117Assignment7A\ITDEV117Assignment7A\obj\Debug\ITDEV117Assignment7A.pdb
+C:\Users\Matthew Dal Santo\Documents\GitHub\ITDEV117-Logic-and-Problem-Solving\ITDEV117Assignment7A\ITDEV117Assignment7A\bin\Debug\ITDEV117Assignment7A.exe.config
+C:\Users\Matthew Dal Santo\Documents\GitHub\ITDEV117-Logic-and-Problem-Solving\ITDEV117Assignment7A\ITDEV117Assignment7A\bin\Debug\ITDEV117Assignment7A.exe
+C:\Users\Matthew Dal Santo\Documents\GitHub\ITDEV117-Logic-and-Problem-Solving\ITDEV117Assignment7A\ITDEV117Assignment7A\bin\Debug\ITDEV117Assignment7A.pdb
+C:\Users\Matthew Dal Santo\Documents\GitHub\ITDEV117-Logic-and-Problem-Solving\ITDEV117Assignment7A\ITDEV117Assignment7A\obj\Debug\ITDEV117Assignment7A.csprojResolveAssemblyReference.cache
+C:\Users\Matthew Dal Santo\Documents\GitHub\ITDEV117-Logic-and-Problem-Solving\ITDEV117Assignment7A\ITDEV117Assignment7A\obj\Debug\ITDEV117Assignment7A.csproj.CoreCompileInputs.cache
+C:\Users\Matthew Dal Santo\Documents\GitHub\ITDEV117-Logic-and-Problem-Solving\ITDEV117Assignment7A\ITDEV117Assignment7A\obj\Debug\ITDEV117Assignment7A.exe
+C:\Users\Matthew Dal Santo\Documents\GitHub\ITDEV117-Logic-and-Problem-Solving\ITDEV117Assignment7A\ITDEV117Assignment7A\obj\Debug\ITDEV117Assignment7A.pdb

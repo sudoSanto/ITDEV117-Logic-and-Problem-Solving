@@ -1,0 +1,24 @@
+Hex.pdf
+
+Matthew Dal Santo
+Answers
+
+Convert to Hex
+
+1.
+7
+
+2.
+C
+
+3.
+F
+
+4.
+8
+
+5.
+3
+
+6.
+14

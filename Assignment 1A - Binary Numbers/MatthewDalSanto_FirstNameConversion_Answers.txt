@@ -1,0 +1,52 @@
+Assignment1A First Name
+
+Matthew Dal Santo
+Answers
+
+then show me you First Name as - 10 pts.
+Matthew
+
+1) Char
+M
+a
+t
+t
+h
+e
+w
+
+2) Binary
+01001101
+01100001
+01110100
+01110100
+01101000
+01100101
+01110111
+
+3) Hex
+4D
+61
+74
+74
+68
+65
+77
+
+4) Octal
+115
+141
+164
+164
+150
+145
+167
+
+5) Decimal
+77
+97
+116
+116
+104
+101
+119

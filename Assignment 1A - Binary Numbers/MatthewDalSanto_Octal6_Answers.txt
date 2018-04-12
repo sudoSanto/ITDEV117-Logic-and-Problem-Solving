@@ -1,0 +1,24 @@
+Octal6.pdf
+
+Matthew Dal Santo
+Answers
+
+Convert to Octal
+
+1.
+7
+
+2.
+14
+
+3.
+17
+
+4.
+10
+
+5.
+3
+
+6.
+24

@@ -1,0 +1,30 @@
+Matthew Dal Santo
+ITDEV 117
+Assignment 3
+
+1. Using this book's conventions, identify each of the following as a class, method, or variable name:
+a. method
+b. variable
+c. variable
+d. variable
+e. class
+f. method
+g. variable
+
+2. Explain why each of the following names does or does not seem like a good variable name to you.
+a. no.  not descriptive enough
+b. yes.  sussinct and descriptive enough if the program is small
+c. yes.  descriptive and uses good naming conventions
+d. no.  white space may not be used in a variable name
+e. no.  not easy to discern what this variable is for
+f. no.  too long to easily work with
+g. yes.  descriptive and uses good naming conventions, though digits are not recommended
+h. no.  leading with numbers can be confusing
+
+4. Assume that dependents = 2 and yearsOnJob = 5.  What is the value of each of the following expressions?
+a. 17
+b. 20
+c. 18
+d. 0
+e. 26
+

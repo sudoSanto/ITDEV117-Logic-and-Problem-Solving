@@ -1,0 +1,207 @@
+Matthew Dal Santo
+ITDEV-117
+Assignment 8 - Chapter 8
+
+Page 334
+Exercise #5
+
+	a. Create the Class Diagram for the Base Class - Rectangle
+	
+	Create a class named Rectangle that contains data fields for height, width, 
+	and surfaceArea, and a method named computeSurfaceArea().
+	
+	Rectangle
+	-height : num
+	-width : num
+	-surfaceArea : num
+	+setHeight(height : num) : void
+	+setWidth(width : num) : void
+	+getHeight() : num
+	+getWidth() : num
+	+getSurfaceArea() : num
+	-computeSurfaceArea() : num
+
+	class Rectangle
+		// Declarations
+			private num height
+			private num width
+			protected num surfaceArea
+
+		public void setHeight(num height)
+			setHeight = height
+		return
+
+		public void setWidth(num weight)
+			setWidth = width
+		return
+
+		public num getHeight()
+		return height
+
+		public num getWidth()
+		return width
+
+		public num getSurfaceArea()
+			computeSurfaceArea()
+		return surfaceArea
+
+		public void computeSurfaceArea()
+			surfaceArea = height * width
+		return 
+	endClass
+	
+	b. Then create the Derived Class Diagram - Box
+	
+	Create a child class named Box, which contains an additional data field 
+	named depth and a computeSurfaceArea() method that overrides the
+	parent method appropriately for a three-dimensional box.
+	
+	Rectangle
+	-height : num
+	-width : num
+	-surfaceArea : num
+	+setHeight(height : num) : void
+	+setWidth(width : num) : void
+	+getHeight() : num
+	+getWidth() : num
+	+getSurfaceArea() : num
+	-computeSurfaceArea() : num
+
+	Box
+	-depth : num
+	+setDepth(depth : num) : void
+	+getDepth() : num
+	-computeSurfaceArea() : num
+
+	class Box inheritsFrom Rectangle
+		// Declarations
+			private num depth
+
+		public void setDepth(num depth)
+			depth = depth
+		return
+
+		public num getDepth()
+		return depth
+
+		public void computeSurfaceArea()
+			// Declarations
+				num l
+				num w
+			l = getLength()
+			w = getWidth()	
+			surfaceArea = (2*l*w) + (2*l*depth) + (2*w*depth)
+		return 
+	endClass
+	
+	c. Pseudo code for all classes (Rectangle and Box)
+	
+	Create the logic for an application that instantiates a Rectangle object and a
+	Box object and displays the surface areas of both objects.
+
+	class RectangleApp
+		public static void main()
+			// Declarations
+				Rectangle rectangleOne
+				Box boxOne
+
+			rectangleOne.setHeight(3)
+			rectangleOne.setWidth(4)
+			boxOne.setHeight(3)
+			boxOne.setWidth(4)
+			boxOne.setDepth(5)
+			//Methods need to be called to give value to surfaceArea
+			rectangleOne.computeSurfaceArea()
+			boxOne.computeSurfaceArea()
+			
+			output “Rectangle surface area: ”, rectangleOne.getSurfaceArea()
+			output “Box surface area: ”, boxOne.getSurfaceArea()
+		return
+	endClass
+	
+	class Rectangle
+		// Declarations
+			private num height
+			private num width
+			protected num surfaceArea
+
+		public void setHeight(num height)
+			setHeight = height
+		return
+
+		public void setWidth(num weight)
+			setWidth = width
+		return
+
+		public num getHeight()
+		return height
+
+		public num getWidth()
+		return width
+
+		public num getSurfaceArea()
+			computeSurfaceArea()
+		return surfaceArea
+
+		public void computeSurfaceArea()
+			surfaceArea = height * width
+		return 
+	endClass
+
+
+	class Box inheritsFrom Rectangle
+		// Declarations
+			private num depth
+
+		public void setDepth(num depth)
+			depth = depth
+		return
+
+		public num getDepth()
+		return depth
+
+		public void computeSurfaceArea()
+			// Declarations
+				num l
+				num w
+			l = getLength()
+			w = getWidth()	
+			surfaceArea = (2*l*w) + (2*l*depth) + (2*w*depth)
+		return 
+	endClass
+	
+	d. Pseudo code for Main which will create a Rectangle and a Box, set the
+	data through setters and surfaceArea for both.  Lastly values of the 
+	data through the getters.  This sceanio will require a calculation.  You 
+	can call from getter or from main.
+	
+	I was a bit confused in the wording of this question.  "Lastly the values of
+	the data through the getters." - I took this to mean you wanted the values of
+	all the getter method values?
+	
+	class RectangleApp
+	public static void main()
+		// Declarations
+			Rectangle rectangleOne
+			Box boxOne
+
+		rectangleOne.setHeight(3)
+		rectangleOne.setWidth(4)
+		boxOne.setHeight(3)
+		boxOne.setWidth(4)
+		boxOne.setDepth(5)
+		rectangleOne.computeSurfaceArea()
+		boxOne.computeSurfaceArea()
+		
+		output “Rectangle height: ”, rectangleOne.getHeight()
+		output “Rectangle width: ”, rectangleOne.getWidth()
+		output “Rectangle surface area: ”, rectangleOne.getSurfaceArea()
+		output “Box height: ”, boxOne.getHeight()
+		output “Box width: ”, boxOne.getWidth()
+		output “Box depth: ”, boxOne.getDepth()
+		output “Box surface area: ”, boxOne.getSurfaceArea()
+	return
+	endClass
+
+	
+	

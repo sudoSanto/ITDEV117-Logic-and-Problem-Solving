@@ -1,0 +1,187 @@
+Matthew Dal Santo
+ITDEV-117
+Assignment 8 - Chapter 8
+
+Page 334
+Exercise #4
+
+	
+
+	a. Create the Class Diagram for the Base Class - Player
+
+	Design a class named Player that holds a player number and name for a
+	sports team participant.  Include methods to get and set the values for each 
+	data field.
+	
+	Player
+	-idNum : num
+	-playerName : string
+	+setIdNum(id : num) : void
+	+setPlayerName(name : string) : void
+	+getIdNum() : num
+	+getPlayerName() : string
+	
+	class Player
+		// Declarations
+			private num idNum
+			private num playerName
+
+		public void setIdNum(num id)
+			idNum = num
+		return
+			
+		public void setPlayerName(string name)
+			playerName = name
+		return
+
+		public num getIdNum()
+		return idNum
+
+		public string getPlayerName()
+		return playerName
+	endClass
+
+	b. Then create the Derived Class Diagram for BasketballPlayer and BasebasePlayer.
+
+	Design two classes named BaseballPlayer and BasketballPlayer that are
+	child classes of Player.  Include a new data field in each class for the player's
+	position.  Include an additional field in the BaseballPlayer class for batting 
+	average.  Include a new field in the BasketballPlayer class for free-throw
+	percentage.  Add appropriate methods in the child classes to get and set the
+	new fields.
+	
+	Player
+	-idNum : num
+	-playerName : string
+	+setIdNum(id : num) : void
+	+setPlayerName(name : string) : void
+	+getIdNum() : num
+	+getPlayerName() : string
+		^
+		|
+	BasketballPlayer
+	-position : string
+	-freeThrowPerc : num
+	+setPosition(pos : string) : void
+	+setFreeThrowPerc(throw : num) : void
+	+getPosition() : string
+	+getFreeThrowPerc() : num
+	
+	Player
+	-idNum : num
+	-playerName : string
+	+setIdNum(id : num) : void
+	+setPlayerName(name : string) : void
+	+getIdNum() : num
+	+getPlayerName() : string
+		^
+		|
+	BasebasePlayer
+	-position : string
+	-battingAverage : num
+	+setPosition(pos : string) : void
+	+setBattingAverage(avg : num) : void
+	+getPosition() : string
+	+getBattingAverage() : num
+	
+
+	c. Pseudo code for all classes (Player, BasketballPlayer and BasebasePlayer) and main.  Main should
+	create the objects, set and get properties.
+	
+	Design an application that instatiates an object of each class and demonstrates 
+	all the methods.
+	
+	class Player
+		// Declarations
+			private num idNum
+			private num playerName
+
+		public void setIdNum(num id)
+			idNum = num
+		return
+			
+		public void setPlayerName(string name)
+			playerName = name
+		return
+
+		public num getIdNum()
+		return idNum
+
+		public string getPlayerName()
+		return playerName
+	endClass
+
+	class BasketballPlayer inheritsFrom Player
+		// Declarations
+			private string position
+			private num freeThrowPerc
+			
+		public void setPosition(string pos)
+			position = pos
+		return
+		
+		public void setFreeThrowPerc(num throw)
+			freeThrowPerc = throw
+		return
+		
+		public string getPosition()
+		return position
+		
+		public num getFreeThrowPerc()
+		return freeThrowPerc
+	endClass
+
+	class BasebasePlayer inheritsFrom Player
+		// Declarations
+			private string position
+			private num battingAverage
+			
+		public void setPosition(string pos)
+			position = pos
+		return
+		
+		public void setBattingAverage(string avg)
+			battingAverage = avg
+		return
+		
+		public string getPosition()
+		return position
+		
+		public string getBattingAverage()
+		return battingAverage
+	endClass
+	
+	class PlayerApp
+		public static void main()
+			// Declarations
+				Player player1
+				BasketballPlayer player2
+				BasebasePlayer player3
+
+			player1.setIdNum(111)
+			player1.setPlayerName("Player One")
+
+			player2.setIdNum(222)
+			player2.setPlayerName("Player Two")
+			player2.setPosition("Left")
+			player2.setFreeThrowPerc(90)
+
+			player3.setIdNum(333)
+			player3.setPlayerName("Player Three")
+			player3.setPosition("Right")
+			player3.setBattingAverage(80)
+
+			output "Player 1 ID: ", player1.getIdNum()
+			output "Player 1 Name: ", player1.getPlayerName()
+
+			output "Player 2 ID: ", player2.getIdNum()
+			output "Player 2 Name: ", player2.getPlayerName()
+			output "Player 2 Position: ", player2.getPosition()
+			output "Player 2 Free Throw Percentage: ", player2.getFreeThrowPerc()
+
+			output "Player 3 ID: ", player3.getIdNum()
+			output "Player 3 Name: ", player3.getPlayerName()
+			output "Player 3 Position: ", player3.getPosition()
+			output "Player 3 Batting Average: ", player3.getBattingAverage()
+		return
+	endClass

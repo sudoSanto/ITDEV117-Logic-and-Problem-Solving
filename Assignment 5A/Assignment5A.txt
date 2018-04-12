@@ -1,0 +1,95 @@
+Matthew Dal Santo
+ITDEV 117
+
+Assignment #5A - Chapter 4 Loop AGAIN
+
+Exercise #1, a. through f.
+
+a.
+	a	b	c	ouput
+	1	2	5	
+	2
+		7
+	3
+		12
+	4
+		17
+	5
+		22
+				5,22,5
+	
+b.
+	d	e	f	output
+	4	6	7
+				4,6,7
+	
+c.
+	g	h	output
+	4	6
+	5
+	6
+			6,6
+	
+d.
+	j	k	n	m	output
+	2	5	9
+				6
+					Goodbye
+				7
+					Goodbye
+				8
+					Goodbye
+				9
+	3
+				6
+					Goodbye
+				7
+					Goodbye
+				8
+					Goodbye
+				9
+	4
+				6
+					Goodbye
+				7
+					Goodbye
+				8
+					Goodbye
+				9
+	5
+	
+e.
+	j	k	m	n	output
+	2	5	6	9
+					Hello
+			7
+					Hello
+			8
+					Hello
+			9
+	3
+	4
+	5
+	
+f.
+	p	q	r	output
+	2	4	2
+				Adios
+			1
+				Adios
+			2
+				Adios
+			3
+				Adios
+			4
+	3
+				Adios
+			1
+				Adios
+			2
+				Adios
+			3
+				Adios
+			4
+	4
+	

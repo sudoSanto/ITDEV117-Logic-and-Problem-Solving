@@ -1,0 +1,200 @@
+Matthew Dal Santo
+ITDEV-117
+Assignment 7 - Chapter 7 OOP  
+
+Page 292
+Exercise #7 a & b
+
+   a. Create a Class Diagram according to specification 7A. (on paper)
+   
+   Design a class named MagazineSubscription that has fields for a subscriber
+   name, magazine name, and number of months remaining for the subscription.
+   Include methods to set and get the values for each data field.  Create the class
+   diagram and write the pseudocode that defines the class.
+   
+	MagazineSubscription
+	-subsriberName : string
+	-magazineName : string
+	-monthsRemaining : num
+	+setSubscriberName(name : string) : void
+	+setMagazineName(name : string) : void
+	+setMonthsRemaining(months : num) : void
+	+getSubscriberName() : string
+	+getMagazineName() : string
+	+getMonthsRemaining() : num
+
+	class MagazineSubscription
+		// Declarations
+			private string subscriberName
+			private string magazineName
+			private num monthsRemaining
+			
+		public void setSubscriberName(string name)
+			subscriberName = name
+		return
+		
+		public void setMagazineName(string name)
+			magazineName = name
+		return
+		
+		public void num setMonthsRemaining(num months)
+			monthsRemaining = months
+		return
+		
+		public string getSubscriberName()
+		return subscriberName
+		
+		public string getMagazineName()
+		return magazineName
+		
+		public num getMonthsRemaining()
+		return monthsRemaining		
+	endClass   
+
+   b.  Design the Application (Main Module) according to specification 7B (on paper)
+   
+   Design an application that declares two MagazineSubscription objects and sets 
+   and displays their values.
+   
+	class MagazingSubscriptionMain
+		public static void main()
+			// Declarations
+				MagazineSubscription subscriberOne
+				MagazineSubscription subscriberTwo
+				
+			subscriberOne.setSubscriberName("Matthew Dal Santo")
+			subscriberOne.setMagazineName("National Geographic")
+			subscriberOne.setMonthsRemaining(11)
+			
+			subscriberTwo.setSubscriberName("George W. Bush")
+			subscriberTwo.setMagazineName("The Hill")
+			subscriberTwo.setMonthsRemaining(10)
+			
+			output "Subscriber Name: ", subsriberOne.getSubscriberName()
+			output "Magazing Name: ", subscriberOne.getMagazineName()
+			output "Number of months remaining for subscription: ", subsriberOne.getMonthsRemaining()
+			
+			output "Subscriber Name: ", subsriberTwo.getSubscriberName()
+			output "Magazing Name: ", subscriberTwo.getMagazineName()
+			output "Number of months remaining for subscription: ", subsriberTwo.getMonthsRemaining()
+		return
+	endClass
+	
+	class MagazineSubscription
+		// Declarations
+			private string subscriberName
+			private string magazineName
+			private num monthsRemaining
+			
+		public void setSubscriberName(string name)
+			subscriberName = name
+		return
+		
+		public void setMagazineName(string name)
+			magazineName = name
+		return
+		
+		public void num setMonthsRemaining(num months)
+			monthsRemaining = months
+		return
+		
+		public string getSubscriberName()
+		return subscriberName
+		
+		public string getMagazineName()
+		return magazineName
+		
+		public num getMonthsRemaining()
+		return monthsRemaining		
+	endClass
+   
+
+   Extra Credit:
+   
+   Implement your Class and MainModule in a programming language of your choice from the Visual Studio Language set(C#, VB, C++)
+   
+   Implimented with C#.  Code included with Assignment #7 submission.  Also below:
+   
+	using System;
+	using System.Collections.Generic;
+	using System.Linq;
+	using System.Text;
+	using System.Threading.Tasks;
+
+	namespace ITDEV117Assignment7
+	{
+		class Program
+		{
+			static void Main(string[] args)
+			{
+				MagazineSubscription subscriberOne = new MagazineSubscription();
+				MagazineSubscription subscriberTwo = new MagazineSubscription();
+
+				subscriberOne.setSubscriberName("Matthew Dal Santo");
+				subscriberOne.setMagazineName("National Geographic");
+				subscriberOne.setMonthsRemaining(11);
+
+				subscriberTwo.setSubscriberName("George W. Bush");
+				subscriberTwo.setMagazineName("The Hill");
+				subscriberTwo.setMonthsRemaining(10);
+
+				Console.WriteLine("Subscriber Name: " + subscriberOne.getSubscriberName());
+				Console.WriteLine("Magazine Name: " + subscriberOne.getMagazineName());
+				Console.WriteLine("Number of months remaining for subscription: " + subscriberOne.getMonthsRemaining());
+				Console.WriteLine("");
+				Console.WriteLine("Subscriber Name: " + subscriberTwo.getSubscriberName());
+				Console.WriteLine("Magazine Name: " + subscriberTwo.getMagazineName());
+				Console.WriteLine("Number of months remaining for subscription: " + subscriberTwo.getMonthsRemaining());
+				Console.WriteLine("");
+				Console.WriteLine("Press enter to exit...");
+				Console.ReadKey();
+			}
+		}
+	}
+
+	using System;
+	using System.Collections.Generic;
+	using System.Linq;
+	using System.Text;
+	using System.Threading.Tasks;
+
+	namespace ITDEV117Assignment7
+	{
+		class MagazineSubscription
+		{
+			// Declarations
+			private string subscriberName;
+			private string magazineName;
+			private int monthsRemaining;
+
+			public void setSubscriberName(string name)
+			{
+				subscriberName = name;
+			}
+
+			public void setMagazineName(string name)
+			{
+				magazineName = name;
+			}
+
+			public void setMonthsRemaining(int num)
+			{
+				monthsRemaining = num;
+			}
+
+			public string getSubscriberName()
+			{ 
+				return subscriberName;
+			}
+
+			public string getMagazineName()
+			{ 
+				return magazineName;
+			}
+
+			public int getMonthsRemaining()
+			{
+				return monthsRemaining;
+			}
+		}
+	}

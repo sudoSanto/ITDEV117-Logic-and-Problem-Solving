@@ -1,0 +1,174 @@
+Matthew Dal Santo
+ITDEV-117
+Assignment 7A - More Class Diagrams/Pseudocode
+
+Page 292
+Exercise #8
+
+   a. Create a Class Diagram and pseudo code for Pizza Class.
+   
+	Design a class named Pizza.  Data fields include a string field for toppings (such
+	as pepperoni) and numeric fields for diameter in inches (such as 12) and price
+	(such as 13.99).  Include methods to get and set values for each of these fields.
+	Create the class diagram and write the pseudocode that defines the class.
+   
+	Pizza
+	-toppings : string
+	-diameter : num
+	-price : num
+	+setToppings(extras : string) : void
+	+setDiameter(size : num) : void
+	+setPrice(money : num) : void
+	+getToppings() : string
+	+getDiameter() : num
+	+getPrice() : num
+
+	class Pizza
+		// Declarations
+			private string toppings
+			private num diameter
+			private num price
+
+		public void setToppings(string extras)
+			toppings = extras
+		return
+
+		public void setDiameter(num size)
+			diameter = size
+		return
+
+		public void setPrice(num money)
+			price = money
+		return
+
+		public string getToppings()
+		return toppings
+
+		public num getDiameter()
+		return diameter
+
+		public num getPrice()
+		return price
+	endClass
+
+   b.  Application Main() - pseudo code that declares TWO objects and sets and displays (gets) their values.
+   
+	Pseudocode for Main():
+
+	class PizzaMain
+		public static void main()
+			// Declarations
+				Pizza myPizza
+				Pizza yourPizza
+
+			myPizza.setToppings("Peperonni")
+			myPizza.setDiameter(12)
+			myPizza.setPrice(13.99)
+
+			yourPizza.setToppings("Pineapple")
+			yourPizza.setDiameter(14)
+			yourPizza.setPrice(15.99)
+
+			output "Pizza 1 info: "
+			output myPizza.getToppings()
+			output myPizza.getDiameter()
+			output myPizza.getPrice()
+
+			output "Pizza 2 info: "
+			output yourPizza.getToppings()
+			output yourPizza.getDiameter()
+			output yourPizza.getPrice()
+	return
+	endClass
+   
+   Extra Credit:
+   
+   Implement your Class and MainModule in a programming language of your choice from the Visual Studio Language set(C#, VB, C++)
+   
+   Implimented with C#.  Code included with Assignment #7A submission.  Also below:
+   
+	using System;
+	using System.Collections.Generic;
+	using System.Linq;
+	using System.Text;
+	using System.Threading.Tasks;
+
+	namespace ITDEV117Assignment7A
+	{
+		class Program
+		{
+			static void Main(string[] args)
+			{
+				Pizza myPizza = new Pizza();
+				Pizza yourPizza = new Pizza();
+
+				myPizza.setToppings("Peperonni");
+				myPizza.setDiameter(12);
+				myPizza.setPrice(13.99);
+
+				yourPizza.setToppings("Pineapple");
+				yourPizza.setDiameter(14);
+				yourPizza.setPrice(15.99);
+
+				Console.WriteLine("Pizza 1 info: ");
+				Console.WriteLine(myPizza.getToppings());
+				Console.WriteLine(myPizza.getDiameter());
+				Console.WriteLine(myPizza.getPrice());
+				Console.WriteLine("");
+				Console.WriteLine("Pizza 2 info: ");
+				Console.WriteLine(yourPizza.getToppings());
+				Console.WriteLine(yourPizza.getDiameter());
+				Console.WriteLine(yourPizza.getPrice());
+				Console.WriteLine("");
+				Console.WriteLine("Press enter to exit...");
+				Console.ReadKey();
+			}
+		}
+	}
+	
+	using System;
+	using System.Collections.Generic;
+	using System.Linq;
+	using System.Text;
+	using System.Threading.Tasks;
+
+	namespace ITDEV117Assignment7A
+	{
+		class Pizza
+		{
+			// Declarations
+			private string toppings;
+			private int diameter;
+			private double price;
+
+			public void setToppings(string extras)
+			{
+				toppings = extras;
+			}
+
+			public void setDiameter(int size)
+			{
+				diameter = size;
+			}
+
+			public void setPrice(double money)
+			{
+				price = money;
+			}
+
+			public string getToppings()
+			{
+				return toppings;
+			}
+
+			public int getDiameter()
+			{
+				return diameter;
+			}
+
+			public double getPrice()
+			{
+				return price;
+			}
+		}
+	}

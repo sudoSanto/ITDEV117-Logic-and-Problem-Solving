@@ -1,0 +1,24 @@
+BinaryandHex12.pdf
+
+Matthew Dal Santo
+Answers
+
+Convert to Binary
+
+1.
+111
+
+2.
+1100
+
+3.
+1111
+
+4.
+1000
+
+5.
+11
+
+6.
+110

@@ -1,0 +1,65 @@
+Matthew Dal Santo
+ITDEV117
+Assignment #4
+
+Excercise #9
+
+class CalculateStittingFee
+	main()
+		// Declarations
+			num subjectNum
+			num basePrice
+			num totalPrice
+			num WEEKEND_UPCHARGE = 0.2
+			num FEE1 = 100
+			num FEE2 = 130
+			num FEE3 = 150
+			num FEE4 = 165
+			num FEE5 = 175
+			num FEE6 = 180
+			num FEE7 = 185
+			string lastName
+			string dayOfWeek
+		output "Please enter the customer's last name. "
+		input lastName
+		output "Please enter the number of subjects posing for a portrait."
+		output "Use numerical digits only. "
+		input subjectNum
+		output "Please enter the day of the week that you will be posing."
+		output "Use lower case only and do not abbreviate the day name. "
+		input dayOfWeek
+		if subjectNum <= 1 then
+			basePrice = FEE1
+		else
+			if subjectNum = 2 then
+				basePrice = FEE2
+			else
+				if subjectNum = 3 then
+					basePrice = FEE3
+				else
+					if subjectNum = 4 then
+						basePrice = FEE4
+					else
+						if subjectNum = 5 then
+							basePrice = FEE5
+						else
+							if subjectNum = 6 then
+								basePrice = FEE6
+							else
+								basePrice = FEE7
+							endif
+						endif
+					endif
+				endif
+			endif
+		endif
+		if dayOfWeek = "saturday" OR dayOfWeek = "sunday" then
+			totalPrice = basePrice * WEEKEND_UPCHARGE + basePrice
+		else
+			totalPrice = basePrice
+		endif
+		output "Customer's last name: ", lastName
+		output "Number of subjects: ", subjectNum
+		output "Scheduled day of week: ", dayOfWeek
+		output "Calculated sitting fee: $", totalPrice
+				

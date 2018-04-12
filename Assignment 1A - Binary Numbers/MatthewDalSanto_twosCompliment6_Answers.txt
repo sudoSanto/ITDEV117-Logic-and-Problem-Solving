@@ -1,0 +1,24 @@
+twosCompliment6.pdf
+
+Matthew Dal Santo
+Answers
+
+Convert to 2's Compliment Binary (8 bits)
+
+1.
+11111001
+
+2.
+11110100
+
+3.
+11110001
+
+4.
+11111000
+
+5.
+11111101
+
+6.
+11101100
