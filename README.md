@@ -16,7 +16,7 @@ Assignments
 **Assignment 3**\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Classes, Methods & Variables*
 
-[<img src="https://github.com/favicon.ico" alt="Assignment 4" width="18" height="18">](https://github.com/sudoSanto/ITDEV117-Logic-and-Problem-Solving/blob/master/Assignment%204/Assignment4.txt"Assignment 4")&nbsp;
+[<img src="https://github.com/favicon.ico" alt="Assignment 4" width="18" height="18">](https://github.com/sudoSanto/ITDEV117-Logic-and-Problem-Solving/blob/master/Assignment%204/Assignment4.txt "Assignment 4")&nbsp;
 **Assignment 4**\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Pseudocode*
 
