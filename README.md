@@ -8,7 +8,6 @@ Assignments
 **Assignment 1A**\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Binary Numbers*
 
-[<img src="https://github.com/favicon.ico" alt="Assignment 2" width="18" height="18">](https://github.com/sudoSanto/ITDEV117-Logic-and-Problem-Solving/tree/master/Assignment%202%20-%20Chapter%201%20and%20Chapter%202 "Assignment 2")&nbsp;
 **Assignment 2**\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*No Assignment Due - Read Chapter 1 & Chapter 2*
 
@@ -28,7 +27,6 @@ Assignments
 **Assignment 5A**\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Stepping Through Code (Cont’d)*
 
-[<img src="https://github.com/favicon.ico" alt="Assignment 6" width="18" height="18">](https://github.com/sudoSanto/ITDEV117-Logic-and-Problem-Solving/tree/master/Assignment%206 "Assignment 6")&nbsp;
 **Assignment 6**\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*No Assignment Due*
 
