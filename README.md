@@ -37,13 +37,28 @@ Assignments
 **Assignment 7 - Extra Credit**\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Convert Assignment 7's Pseudocode to C#*
 
-[<img src="https://github.com/favicon.ico" alt="Assignment 9" width="18" height="18">](https://github.com/sudoSanto/ITDEV150-Database-Management-with-SQL/blob/master/Assignment9.txt "Assignment 9")&nbsp;
-**Create and Maintain Tables with SQL**
+[<img src="https://github.com/favicon.ico" alt="Assignment 7A" width="18" height="18">](https://github.com/sudoSanto/ITDEV117-Logic-and-Problem-Solving/blob/master/Assignment%207A/Assignment7A.txt "Assignment 7A")&nbsp;
+**Assignment 7A**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Class Diagrams (Cont’d)*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://github.com/favicon.ico" alt="Assignment 7A Extra Credit" width="18" height="18">](https://github.com/sudoSanto/ITDEV117-Logic-and-Problem-Solving/tree/master/Assignment%207A%20C%23 "Assignment 7A Extra Credit")&nbsp;
+**Assignment 7A - Extra Credit**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Convert Assignment 7A's Pseudocode to C#*
 
-**Final Project**
+[<img src="https://github.com/favicon.ico" alt="Assignment 8" width="18" height="18">](https://github.com/sudoSanto/ITDEV117-Logic-and-Problem-Solving/blob/master/Assignment%208/Assignment8.txt "Assignment 8")&nbsp;
+**Assignment 8**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Properties & Get/Set*
 
-**Final Exam**\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Views, Scripts, Stored Functions, Proceedures & Triggers*
+[<img src="https://github.com/favicon.ico" alt="Assignment 8A" width="18" height="18">](https://github.com/sudoSanto/ITDEV117-Logic-and-Problem-Solving/blob/master/Assignment%208A/Assignment8A.txt "Assignment 8A")&nbsp;
+**Assignment 8A**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Properties & Get/Set (Cont'd) & Inheritance*
+
+[<img src="https://github.com/favicon.ico" alt="Assignment 9" width="18" height="18">](https://github.com/sudoSanto/ITDEV117-Logic-and-Problem-Solving/tree/master/Assignment%209 "Assignment 9")&nbsp;
+**Assignment 9**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*UML Diagrams*
+
+[<img src="https://github.com/favicon.ico" alt="Group Presentation" width="18" height="18">](https://github.com/sudoSanto/ITDEV117-Logic-and-Problem-Solving/tree/master/Group%202%20Presentation "Group Presentation")&nbsp;
+**Group Presentation**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Group Presentation - Software Development Life Cycle*
 
 <br/>
 
