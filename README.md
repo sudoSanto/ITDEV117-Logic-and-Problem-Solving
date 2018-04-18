@@ -27,7 +27,7 @@ Assignments
 **Assignment 5A**\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Stepping Through Code (Cont’d)*
 
-**Assignment 6**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Assignment 6**\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*No Assignment Due*
 
 [<img src="https://github.com/favicon.ico" alt="Assignment 7" width="18" height="18">](https://github.com/sudoSanto/ITDEV117-Logic-and-Problem-Solving/blob/master/Assignment%207/Assignment7.txt "Assignment 7")&nbsp;
