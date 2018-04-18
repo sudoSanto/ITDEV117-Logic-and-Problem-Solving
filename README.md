@@ -39,7 +39,7 @@ Assignments
 
 [<img src="https://github.com/favicon.ico" alt="Assignment 7A" width="18" height="18">](https://github.com/sudoSanto/ITDEV117-Logic-and-Problem-Solving/blob/master/Assignment%207A/Assignment7A.txt "Assignment 7A")&nbsp;
 **Assignment 7A**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Class Diagrams (Cont’d)*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Class Diagrams (Cont’d)*\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://github.com/favicon.ico" alt="Assignment 7A Extra Credit" width="18" height="18">](https://github.com/sudoSanto/ITDEV117-Logic-and-Problem-Solving/tree/master/Assignment%207A%20C%23 "Assignment 7A Extra Credit")&nbsp;
 **Assignment 7A - Extra Credit**\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Convert Assignment 7A's Pseudocode to C#*
