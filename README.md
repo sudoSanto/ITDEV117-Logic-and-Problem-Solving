@@ -8,7 +8,7 @@ Assignments
 **Assignment 1A**\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Binary Numbers*
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Assignment 2**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Assignment 2**\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*No Assignment Due - Read Chapter 1 & Chapter 2*
 
 [<img src="https://github.com/favicon.ico" alt="Assignment 3" width="18" height="18">](https://github.com/sudoSanto/ITDEV117-Logic-and-Problem-Solving/tree/master/Assignment%203 "Assignment 3")&nbsp;
