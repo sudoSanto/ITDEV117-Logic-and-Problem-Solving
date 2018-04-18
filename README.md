@@ -36,7 +36,7 @@ Assignments
 **Assignment 7**\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Class Diagrams*\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://github.com/favicon.ico" alt="Assignment 7 Extra Credit" width="18" height="18">](https://github.com/sudoSanto/ITDEV117-Logic-and-Problem-Solving/tree/master/Assignment%207%20C%23 "Assignment 7 Extra Credit")&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Assignment 7 - Extra Credit**\
+**Assignment 7 - Extra Credit**\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Convert Assignment 7's Pseudocode to C#*\
 
 [<img src="https://github.com/favicon.ico" alt="Assignment 9" width="18" height="18">](https://github.com/sudoSanto/ITDEV150-Database-Management-with-SQL/blob/master/Assignment9.txt "Assignment 9")&nbsp;
