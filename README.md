@@ -1,6 +1,9 @@
 ITDEV117-Logic-and-Problem-Solving
 ------
 ### MATC Fall 2017
+
+This course presents a formal approach to logical thinking and problem solving using mathematical and programming logic structures. For students to think logically and solve problems, they need to think abstractly. This means to use logically valid forms of argument, both direct and indirect, to derive new results from those already known to be true. This course will teach these mathematical and programming logic structures in context with fundamental object-oriented programming principles. MATC strongly recommends that students take this course concurrently with ITDEV-110 Introduction to Object Oriented programming.
+
 Assignments
 ------
 
